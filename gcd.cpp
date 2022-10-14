@@ -3,7 +3,10 @@ using namespace std;
 
 int main(){
     int a,b;
-cin>>a>>b;
+    cout<<"Enter the bigger number: ";
+cin>>a;
+    cout<<"Enter the smaller number: ";
+    cin>>b;
 int k;
 for( int i=0;i<1000;i++){
 if (a>=b){
